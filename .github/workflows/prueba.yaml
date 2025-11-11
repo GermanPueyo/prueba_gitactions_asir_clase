@@ -9,4 +9,10 @@ jobs:
     - name: Escribir hola por la pantalla
       run:
         echo "Hola desde el runner de github action"
+    - name: Mostrar la fecha y hora del momento en el que se hace la transición
+      run:
+        echo "La fecha y la hora en la que se puso: " sysdate
+    - name: Mostrar última versión de java
+      run:
+        echo "La ultima version de java es: " java -version
         
