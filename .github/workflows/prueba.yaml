@@ -14,5 +14,6 @@ jobs:
         echo "La fecha y la hora en la que se puso: " sysdate
     - name: Mostrar última versión de java
       run:
-        echo "La ultima version de java es: " java -version
+        echo "La ultima version de java es: "
+        java -version
         
